@@ -1,6 +1,37 @@
 # restapi.example
-RESTApi example with nodejs, tingodb(embedded db)
+A simple RESTApi example with nodejs, tingodb(embedded db)
 
+## Global Dependencies
+
+| Dependency | Version | Install                               |
+| ---------- | ------- | ------------------------------------- |
+| NodeJS     | 5.x.x   | [http://node.org](http://nodejs.org/) |
+| npm        | 3.x.x   | [http://node.org](http://nodejs.org/) |
+
+## Install
+```
+npm install
+```
+
+Using [tingodb (embedded db)](https://github.com/sergeyksv/tingodb/blob/master/test/crud-test.js) instead of mongodb.
+```
+npm install tingodb
+```
+
+Used [Express Framework](http://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm)
+### usages
+- Allows to set up middlewares to respond to HTTP Requests.
+- Defines a routing table which is used to perform different action based on HTTP Method and URL.
+```
+npm install express
+```
+
+Used body-parser 
+### usages
+- This is a node.js middleware for handling JSON, Raw, Text and URL encoded form data.
+```
+npm install body-parser
+```
 
 
 ## License
