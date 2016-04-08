@@ -13,7 +13,7 @@ A simple RESTApi example with nodejs, tingodb(embedded db)
 $ npm install
 ```
 
-### Using [tingodb (embedded db)](https://github.com/sergeyksv/tingodb/blob/master/test/crud-test.js) instead of mongodb.
+### Used [tingodb (embedded db)](https://github.com/sergeyksv/tingodb/blob/master/test/crud-test.js) instead of mongodb.
 ```
 $ npm install tingodb
 ```
